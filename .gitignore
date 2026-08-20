@@ -1,0 +1,30 @@
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Databases & SQLite
+*.db
+*.sqlite
+*.sqlite3
+backend/hrms.db
+
+# Python / Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# Node / Vite / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.DS_Store
+*.log
